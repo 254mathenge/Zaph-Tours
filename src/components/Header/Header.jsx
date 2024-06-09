@@ -1,13 +1,15 @@
 import HeaderTop from "./Header-top";
-import HeaderBottom from "./Header-bottom";
+import Navbar from "./Navbar";
 import "./Header.css"
 const Header = () => {
     return (
         <>
             <div className="header">
             <HeaderTop />
-            <HeaderBottom />
-            </div>
+            {/* <HeaderBottom /> */}
+           
+            </div> 
+            <Navbar/>
        </> 
     );
 }

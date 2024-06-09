@@ -9,6 +9,7 @@ import Destinations from "./pages/Destinations";
 import TripsType from "./pages/Trips-types";
 import ContactUs from "./pages/Contact-us"
 import Blog from "./pages/Blog";
+import NotFound from "./components/404/NotFound";
 function App() {
 
   return (
@@ -16,12 +17,14 @@ function App() {
       <div>
         <BrowserRouter>
           <Header />
+          <div className="page__spacer"/>
           <Routes>
             <Route path="/" element={ <Home/>} />
             <Route path="/Destinations" element={<Destinations />} />
             <Route path="/TripsType" element={<TripsType />} />
             <Route path="/contactUs" element={<ContactUs />} />
-            <Route path="/Destinations/:destination"element={<Blog/>}/>
+            <Route path="/Destinations/:destination" element={<Blog />} />
+            <Route path="*" element={<NotFound/>} />
           </Routes>
           <Footer/>
         </BrowserRouter>

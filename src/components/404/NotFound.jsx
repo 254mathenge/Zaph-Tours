@@ -3,8 +3,8 @@ import "./NotFound.css"
 function NotFound() {
   return (
     <div>
-<h1>404 Error Page #2</h1>
-<p class="zoom-area"><b>CSS</b> animations to make a cool 404 page. </p>
+<h1>404 Error Page</h1>
+<p class="zoom-area"><b>Oops!</b> You must  be lost. </p>
 <section c
          ass="error-container">
   <span class="four"><span class="screen-reader-text">4</span></span>
