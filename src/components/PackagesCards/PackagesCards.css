@@ -1,0 +1,10 @@
+.trips-packages-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    max-width: 1000px;
+    gap: 3rem;
+    margin: 0 auto;
+    
+    }

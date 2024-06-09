@@ -1,0 +1,17 @@
+.section-title-container{
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 3rem 0;
+}
+.section-title-text{
+ font-size: 3rem;
+ color: rgb(15, 7, 10);
+}
+.section-title-hr{
+border: 2px solid rgb(223, 61, 88);
+width: 150px;
+border-radius: 10px;
+}
